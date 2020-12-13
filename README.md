@@ -1,3 +1,9 @@
+# FAKE GOOGLE
+
+ Almost done, icons inside of the input left.
+
+Let's keep original docs to learn about the scripts of this project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
