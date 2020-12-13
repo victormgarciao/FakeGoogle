@@ -1,0 +1,21 @@
+@import '../../../breakpoints.scss';
+
+.a-footerRow {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+
+    @include tablet {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    @include desktop {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

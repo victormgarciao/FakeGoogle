@@ -1,0 +1,30 @@
+@import '../../../breakpoints.scss';
+
+.o-headerActions {
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 13px;
+    justify-content: flex-end;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 275px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    user-select: none;
+    white-space: nowrap;
+
+    &__links {
+        display: none;
+
+        @include tablet {
+            display: block;
+        }
+
+        @include desktop {
+            display: block;
+        }
+    }
+}

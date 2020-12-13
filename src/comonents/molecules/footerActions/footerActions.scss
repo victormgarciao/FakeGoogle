@@ -1,0 +1,27 @@
+@import '../../../breakpoints.scss';
+
+.m-footerActions {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+
+    @include desktop {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__link {
+        padding-left: 14px;
+        
+        @include fromTabletOn {
+            padding-left: 27px;
+        }
+    }
+
+    &__contactLinks {
+        :first-child {
+            padding-left: 0;
+        }
+    }
+}

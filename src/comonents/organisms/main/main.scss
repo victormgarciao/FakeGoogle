@@ -1,0 +1,65 @@
+@import '../../../breakpoints.scss';
+
+.o-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 56px;
+
+    @include tablet {
+        margin-top: 90px;
+    }
+
+    @include desktop {
+        margin-top: 130px;
+    }
+
+    &__actions {
+        display: none;
+
+        @include fromTabletOn {
+            display: block;
+            line-height: 27px;
+            padding-top: 32px;
+
+            & .-grey {
+                border-radius: 4px;
+                height: 36px;
+                line-height: 27px;
+                margin: 11px 4px;
+                min-width: 54px;
+                padding: 11px 16px;
+
+            }
+        }
+    }
+
+    &__languages {
+        align-items: center;
+        display: flex;
+        font-size: 13px;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    &__links {
+        & .a-link {
+            padding-left: 5px;
+        }
+    }
+
+    &__input {
+        input {
+            border: 1px solid #eee;
+            border-radius: 36px;
+            height: 36px;
+            min-width: 380px;
+            
+            @include fromTabletOn {
+                width: 480px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+.m-headerButtons {
+    display: flex;
+    align-items: center;
+    min-width: 154px;
+    flex: 0 1 auto;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    white-space: nowrap;
+    font-size: 13px;
+    user-select: none;
+    
+    &__buttonWrapper {
+        padding: 0 0 0 15px;
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+        flex: 0 0 auto;
+        vertical-align: middle;
+        display: flex;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+}

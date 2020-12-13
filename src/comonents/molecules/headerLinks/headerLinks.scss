@@ -1,0 +1,26 @@
+.m-headerLinks {
+    color: rgb(32, 33, 36);
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+    font-size: 13px;
+    line-height: normal;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 15px;
+    text-align: right;
+    user-select: none;
+    white-space: nowrap;
+
+    &__linkWrapper {
+        flex: 0 0 auto;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 15px;
+        vertical-align: middle;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+}
